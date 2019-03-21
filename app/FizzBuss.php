@@ -11,7 +11,20 @@ namespace App;
 
 class FizzBuss
 {
+//    Kata fizz
     public function getList(){
-        return [1];
+        $arr = [];
+        for($i = 1; $i <= 100; $i++){
+            if($i % 3 == 0){
+                array_push($arr, 'Fizz');
+            }else if($i % 5 == 0){
+                array_push($arr, 'Buss');
+            }else if($i % 3 == 0 && $i % 5 == 0){
+                array_push($arr, 'FizzBuss');
+            }else{
+                array_push($arr, $i);
+            }
+        }
+        return $arr;
     }
 }

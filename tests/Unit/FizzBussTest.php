@@ -22,4 +22,24 @@ class FizzBussTest extends TestCase
         $this->assertEquals(1, $list[0]);
     }
 
+    public function test_get_fizz_when_value_is_3(){
+        //Instanciar una clase
+        $fb = new FizzBuss();
+        //lista a evaluar
+        $list = $fb->getList();
+        //Problema a evaluar
+        $this->assertEquals('Fizz', $list[2]);
+    }
+
+    public function test_get_buss_when_value_is_5(){
+        //Instanciar una clase
+        $fb = new FizzBuss();
+        //lista a evaluar
+        $list = $fb->getList();
+        //Problema a evaluar
+        $this->assertEquals('Buss', $list[4]);
+    }
+
+
+
 }
