@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5077bb61-34b7-46a1-83b4-f81d7ff7baea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/FizzBuss.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/FizzBuss.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/FizzBussTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/FizzBussTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/app/FizzBuss.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <caret line="19" column="17" lean-forward="true" selection-start-line="15" selection-end-line="26" selection-end-column="9" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
               </folding>
@@ -32,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Unit/FizzBussTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+            <state relative-caret-position="187">
+              <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
               <folding>
                 <element signature="e#30#47#0#PHP" expanded="true" />
               </folding>
@@ -202,12 +200,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553182894252</updated>
-      <workItem from="1553182895536" duration="4943000" />
+      <workItem from="1553182895536" duration="5661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4943000" />
+    <option name="totallyTimeSpent" value="5661000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -310,7 +308,7 @@
     <entry file="file://$PROJECT_DIR$/app/FizzBuss.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <caret line="19" column="17" lean-forward="true" selection-start-line="15" selection-end-line="26" selection-end-column="9" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
           </folding>
@@ -319,8 +317,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/FizzBussTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+        <state relative-caret-position="187">
+          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
           <folding>
             <element signature="e#30#47#0#PHP" expanded="true" />
           </folding>
