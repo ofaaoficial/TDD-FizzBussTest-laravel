@@ -15,12 +15,12 @@ class FizzBuss
     public function getList(){
         $arr = [];
         for($i = 1; $i <= 100; $i++){
-            if($i % 3 == 0){
-                array_push($arr, 'Fizz');
-            }else if($i % 5 == 0){
-                array_push($arr, 'Buss');
-            }else if($i % 3 == 0 && $i % 5 == 0){
+            if($i % 3 == 0 && $i % 5 == 0) {
                 array_push($arr, 'FizzBuss');
+            }else if($i % 3 == 0){
+                array_push($arr, 'Fizz');
+            }else if($i % 5 == 0) {
+                array_push($arr, 'Buss');
             }else{
                 array_push($arr, $i);
             }
